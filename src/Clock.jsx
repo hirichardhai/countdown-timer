@@ -13,6 +13,10 @@ class Clock extends Component {
         console.log('this.props', this.props);
     }
 
+    componentWillMount() {
+        this.getTimeUntil(this.props.deadline);
+    }
+    
     componentDidMount() {
         setInterval(() => this.getTimeUntil(this.props.deadline), 1000);
     }
