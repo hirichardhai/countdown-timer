@@ -13,6 +13,9 @@ class Clock extends Component {
         console.log('this.props', this.props);
     }
 
+    leading0(num) {
+        return num < 10 ? '0' + num : num;
+    }
 
     getTimeUntil(deadline) {
         const time = Date.parse(deadline) - Date.parse(new Date());
