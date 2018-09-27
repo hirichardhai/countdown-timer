@@ -13,3 +13,7 @@ npm run build
 # Runs the appin development mode at http://localhost:3000/
 npm start
 ```
+
+# Images
+
+![alt text](images/example.png)
