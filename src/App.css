@@ -1,3 +1,8 @@
+body {
+    background-color: teal;
+    color: white;
+}
+
 .App {
     text-align: center;
     margin-top: 20%;
@@ -5,7 +10,7 @@
 }
 
 .App-title {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
